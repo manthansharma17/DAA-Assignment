@@ -4,13 +4,11 @@ tasks = ["Task1", "Task2", "Task3", "Task4", "Task5"]
 print("Tasks:", tasks)
 
 
-# -------------------------
-# Stack - LIFO
-# -------------------------
+
+# ------Stack - LIFO--------
 
 stack = []
 
-# Add tasks to the stack
 for task in tasks:
     stack.append(task)
 
@@ -22,27 +20,23 @@ while stack:
     print(task)
 
 
-# -------------------------
-# Queue - FIFO
-# -------------------------
+
+# ------Queue - FIFO----------
+
 
 queue = []
 
-# Add tasks to the queue
 for task in tasks:
     queue.append(task)
 
 print("\nQueue order (FIFO):")
 
-# First task added is removed first
+
 while queue:
     task = queue.pop(0)
     print(task)
 
 
-# -------------------------
-# Printer Queue
-# -------------------------
 
 printer_queue = tasks.copy()
 

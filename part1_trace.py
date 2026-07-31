@@ -1,9 +1,7 @@
-# Given list
 numbers = [8, 3, 15, 6, 2]
 
 print("Given list:", numbers)
 
-#finding largest number
 
 largest = numbers[0]
 comparisons = 0
