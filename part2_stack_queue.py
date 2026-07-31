@@ -40,3 +40,15 @@ while queue:
     print(task)
 
 
+# -------------------------
+# Printer Queue
+# -------------------------
+
+printer_queue = tasks.copy()
+
+print("\nPrinter should use: Queue")
+print("Printing order:")
+
+while printer_queue:
+    job = printer_queue.pop(0)
+    print(job)
