@@ -40,4 +40,11 @@ for i in range(len(sorted_numbers) - 1):
         if sorted_numbers[j] < sorted_numbers[min_index]:
             min_index = j
 
-   
+    # Swap the numbers
+    temp = sorted_numbers[i]
+    sorted_numbers[i] = sorted_numbers[min_index]
+    sorted_numbers[min_index] = temp
+
+    print("Step", i + 1, ":", sorted_numbers)
+
+print("\nSorted list:", sorted_numbers)
